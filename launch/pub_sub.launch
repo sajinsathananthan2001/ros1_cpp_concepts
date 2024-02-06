@@ -1,0 +1,4 @@
+<launch>
+    <node name="cpp_publisher" pkg="ros1_cpp_concepts" type="cpp_publisher" output="screen"/>
+    <node name="cpp_subscriber" pkg="ros1_cpp_concepts" type="cpp_subscriber" output="screen"/>
+</launch>
